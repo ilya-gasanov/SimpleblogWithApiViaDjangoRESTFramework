@@ -5,7 +5,7 @@
     they can be used at - site/api/blog  (list of posts)
                         - site/api/blog/post_id (post create,edit, 
                                                     detail view, delete).
-    Only autorized users can manipulate via api functions, except list view and detail view of posts.
+    Only authorized users can manipulate via api functions, except list view and detail view of posts.
     It runs as standard on the Django`s test server
     Please, run python manage.py migrate --run-syncdb before first start.
     Django admin interface can be used to add posts to the blog.
